@@ -15,8 +15,8 @@ def calculate_rmse(map1, map2):
     return rmse
 
 if __name__ == "__main__":
-    map1_filename = 'not_ideal.png'
-    map2_filename = 'ideal_map_gmapping.png'
+    map1_filename = 'путь/к/slam/карте.png'
+    map2_filename = 'путь/к/эталонной/карте.png'
     map1 = load_map(map1_filename)
     map2 = load_map(map2_filename)
 
